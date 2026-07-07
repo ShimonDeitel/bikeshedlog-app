@@ -1,0 +1,44 @@
+{
+  "identifier" : "BikeShedLog",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "bikeshedlog_pro_group",
+      "localizations" : [],
+      "name" : "BikeShedLog Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "bikeshedlog_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Service-interval reminders and mileage tracking",
+              "displayName" : "BikeShedLog Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.bikeshedlog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "BikeShedLog Pro Monthly",
+          "subscriptionGroupID" : "bikeshedlog_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
