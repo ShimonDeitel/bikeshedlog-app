@@ -35,7 +35,6 @@ targets:
     platform: iOS
     sources:
       - path: BikeShedLogTests
-      - path: BikeShedLog.storekit
     dependencies:
       - target: BikeShedLog
     settings:
